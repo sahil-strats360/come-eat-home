@@ -1,0 +1,460 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smartersvision.food_delivery_app_2"
+4    android:versionCode="1"
+5    android:versionName="3.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\android\app\src\main\AndroidManifest.xml:4:5-66
+14-->E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\android\app\src\main\AndroidManifest.xml:5:5-78
+15-->E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\android\app\src\main\AndroidManifest.xml:5:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\android\app\src\main\AndroidManifest.xml:6:5-80
+16-->E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\android\app\src\main\AndroidManifest.xml:6:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\android\app\src\main\AndroidManifest.xml:7:5-79
+17-->E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\android\app\src\main\AndroidManifest.xml:7:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+18-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-68
+18-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-65
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-77
+19-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[:geolocator_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-77
+20-->[:geolocator_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-74
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+21-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\bf2f59dd8fb08d5f5ac2d38618a3fda4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\bf2f59dd8fb08d5f5ac2d38618a3fda4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\bf2f59dd8fb08d5f5ac2d38618a3fda4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+26
+27    <queries>
+27-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\bf2f59dd8fb08d5f5ac2d38618a3fda4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+28
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\bf2f59dd8fb08d5f5ac2d38618a3fda4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\bf2f59dd8fb08d5f5ac2d38618a3fda4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+31    </queries>
+32
+33    <permission
+33-->[androidx.core:core:1.10.1] C:\Users\OM\.gradle\caches\transforms-3\e4548daa0a63a95a740a7a1bcfc57535\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+34        android:name="com.smartersvision.food_delivery_app_2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.10.1] C:\Users\OM\.gradle\caches\transforms-3\e4548daa0a63a95a740a7a1bcfc57535\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.10.1] C:\Users\OM\.gradle\caches\transforms-3\e4548daa0a63a95a740a7a1bcfc57535\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.smartersvision.food_delivery_app_2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.10.1] C:\Users\OM\.gradle\caches\transforms-3\e4548daa0a63a95a740a7a1bcfc57535\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.10.1] C:\Users\OM\.gradle\caches\transforms-3\e4548daa0a63a95a740a7a1bcfc57535\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+38    <!--
+39 io.flutter.app.FlutterApplication is an android.app.Application that
+40         calls FlutterMain.startInitialization(this); in its onCreate method.
+41         In most cases you can leave this as-is, but you if you want to provide
+42         additional functionality it is fine to subclass or reimplement
+43         FlutterApplication and put your custom class here.
+44    -->
+45    <application
+46        android:name="android.app.Application"
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.10.1] C:\Users\OM\.gradle\caches\transforms-3\e4548daa0a63a95a740a7a1bcfc57535\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/ic_launcher"
+50        android:label="Food Delivery App" >
+51        <meta-data
+52            android:name="com.google.android.geo.API_KEY"
+53            android:value="AIzaSyDdyth2EiAjU9m9eE_obC5fnTY1yeVNTJU" />
+54        <meta-data
+55            android:name="com.google.firebase.messaging.default_notification_icon"
+56            android:resource="@mipmap/ic_notification" />
+57
+58        <activity
+59            android:name="com.smartersvision.food_delivery_app_2.MainActivity"
+60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+61            android:exported="true"
+62            android:hardwareAccelerated="true"
+63            android:launchMode="singleTop"
+64            android:theme="@style/LaunchTheme"
+65            android:windowSoftInputMode="adjustResize" >
+66
+67            <!--
+68                 Specifies an Android theme to apply to this Activity as soon as
+69                 the Android process has started. This theme is visible to the user
+70                 while the Flutter UI initializes. After that, this theme continues
+71                 to determine the Window background behind the Flutter UI.
+72            -->
+73            <meta-data
+74                android:name="io.flutter.embedding.android.NormalTheme"
+75                android:resource="@style/NormalTheme" />
+76
+77            <intent-filter>
+78                <action android:name="android.intent.action.MAIN" />
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+81            </intent-filter>
+82            <intent-filter>
+83                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+85-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+86            </intent-filter>
+87        </activity>
+88        <!--
+89             Don't delete the meta-data below.
+90             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+91        -->
+92        <meta-data
+93            android:name="flutterEmbedding"
+94            android:value="2" />
+95
+96        <service
+96-->[:cloud_firestore] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+97            android:name="com.google.firebase.components.ComponentDiscoveryService"
+97-->[:cloud_firestore] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:20.3.2] C:\Users\OM\.gradle\caches\transforms-3\e69d6c6adaf65ff42522d7b0fe44c7a1\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+99            android:exported="false" >
+99-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:68:13-37
+100            <meta-data
+100-->[:cloud_firestore] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+101-->[:cloud_firestore] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:cloud_firestore] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+103            <meta-data
+103-->[:firebase_auth] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+104                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+104-->[:firebase_auth] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[:firebase_auth] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+106            <meta-data
+106-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-38:85
+107                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+107-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:17-128
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:17-82
+109            <meta-data
+109-->[:firebase_core] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+110                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+110-->[:firebase_core] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[:firebase_core] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:69:13-71:85
+113                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+113-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:70:17-109
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:71:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+116                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+116-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\OM\.gradle\caches\transforms-3\4ca460f471c2fed7de6c04b7427fe273\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+119                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+119-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\OM\.gradle\caches\transforms-3\4ca460f471c2fed7de6c04b7427fe273\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\OM\.gradle\caches\transforms-3\4ca460f471c2fed7de6c04b7427fe273\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\OM\.gradle\caches\transforms-3\bc6fdac34a2fcf69ba6359a852de5fce\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:19:13-21:85
+122                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+122-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\OM\.gradle\caches\transforms-3\bc6fdac34a2fcf69ba6359a852de5fce\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:20:17-111
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\OM\.gradle\caches\transforms-3\bc6fdac34a2fcf69ba6359a852de5fce\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:21:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\OM\.gradle\caches\transforms-3\7a5dabb0e0f0fb14869510d0703012d0\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+125-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\OM\.gradle\caches\transforms-3\7a5dabb0e0f0fb14869510d0703012d0\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\OM\.gradle\caches\transforms-3\7a5dabb0e0f0fb14869510d0703012d0\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\OM\.gradle\caches\transforms-3\646c0fa4e2358925dd7d97ad062c13ae\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+128                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+128-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\OM\.gradle\caches\transforms-3\646c0fa4e2358925dd7d97ad062c13ae\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\OM\.gradle\caches\transforms-3\646c0fa4e2358925dd7d97ad062c13ae\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+130        </service>
+131        <service
+131-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-17:72
+132            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+132-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-107
+133            android:exported="false"
+133-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+134            android:permission="android.permission.BIND_JOB_SERVICE" />
+134-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-69
+135        <service
+135-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:19
+136            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+136-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-97
+137            android:exported="false" >
+137-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+138            <intent-filter>
+138-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+139                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+139-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+139-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+140            </intent-filter>
+141        </service>
+142
+143        <receiver
+143-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33:20
+144            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+144-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-98
+145            android:exported="true"
+145-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-36
+146            android:permission="com.google.android.c2dm.permission.SEND" >
+146-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-73
+147            <intent-filter>
+147-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+148                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+148-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+148-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+149            </intent-filter>
+150        </receiver>
+151
+152        <provider
+152-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-45:38
+153            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+153-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-102
+154            android:authorities="com.smartersvision.food_delivery_app_2.flutterfirebasemessaginginitprovider"
+154-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-88
+155            android:exported="false"
+155-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
+156            android:initOrder="99" />
+156-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-35
+157
+158        <service
+158-->[:geolocator_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
+159            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+159-->[:geolocator_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+160            android:enabled="true"
+160-->[:geolocator_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
+161            android:exported="false"
+161-->[:geolocator_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+162            android:foregroundServiceType="location" />
+162-->[:geolocator_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
+163
+164        <activity
+164-->[:url_launcher_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+165            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+165-->[:url_launcher_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+166            android:exported="false"
+166-->[:url_launcher_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+167            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+167-->[:url_launcher_android] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+168
+169        <service
+169-->[:location] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-15:56
+170            android:name="com.lyokone.location.FlutterLocationService"
+170-->[:location] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+171            android:enabled="true"
+171-->[:location] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-35
+172            android:exported="false"
+172-->[:location] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+173            android:foregroundServiceType="location" />
+173-->[:location] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-53
+174
+175        <activity
+175-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:29:9-46:20
+176            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+176-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:30:13-80
+177            android:excludeFromRecents="true"
+177-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:31:13-46
+178            android:exported="true"
+178-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:32:13-36
+179            android:launchMode="singleTask"
+179-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:33:13-44
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+180-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:34:13-72
+181            <intent-filter>
+181-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:35:13-45:29
+182                <action android:name="android.intent.action.VIEW" />
+182-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+182-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+183
+184                <category android:name="android.intent.category.DEFAULT" />
+184-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+184-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+185                <category android:name="android.intent.category.BROWSABLE" />
+185-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+185-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+186
+187                <data
+187-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+188                    android:host="firebase.auth"
+188-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+189                    android:path="/"
+189-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+190                    android:scheme="genericidp" />
+190-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+191            </intent-filter>
+192        </activity>
+193        <activity
+193-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:47:9-64:20
+194            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+194-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:48:13-79
+195            android:excludeFromRecents="true"
+195-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:49:13-46
+196            android:exported="true"
+196-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:50:13-36
+197            android:launchMode="singleTask"
+197-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:51:13-44
+198            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+198-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:52:13-72
+199            <intent-filter>
+199-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:53:13-63:29
+200                <action android:name="android.intent.action.VIEW" />
+200-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+200-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+201
+202                <category android:name="android.intent.category.DEFAULT" />
+202-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+202-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+203                <category android:name="android.intent.category.BROWSABLE" />
+203-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+203-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+204
+205                <data
+205-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+206                    android:host="firebase.auth"
+206-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+207                    android:path="/"
+207-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+208                    android:scheme="recaptcha" />
+208-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\OM\.gradle\caches\transforms-3\a43a39b5c74af8cd5a413d55457c4121\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+209            </intent-filter>
+210        </activity>
+211
+212        <uses-library
+212-->[androidx.window:window:1.0.0-beta04] C:\Users\OM\.gradle\caches\transforms-3\0b7779b9269da355e9bcc3d2d4abf2fc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+213            android:name="androidx.window.extensions"
+213-->[androidx.window:window:1.0.0-beta04] C:\Users\OM\.gradle\caches\transforms-3\0b7779b9269da355e9bcc3d2d4abf2fc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+214            android:required="false" />
+214-->[androidx.window:window:1.0.0-beta04] C:\Users\OM\.gradle\caches\transforms-3\0b7779b9269da355e9bcc3d2d4abf2fc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+215        <uses-library
+215-->[androidx.window:window:1.0.0-beta04] C:\Users\OM\.gradle\caches\transforms-3\0b7779b9269da355e9bcc3d2d4abf2fc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+216            android:name="androidx.window.sidecar"
+216-->[androidx.window:window:1.0.0-beta04] C:\Users\OM\.gradle\caches\transforms-3\0b7779b9269da355e9bcc3d2d4abf2fc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+217            android:required="false" />
+217-->[androidx.window:window:1.0.0-beta04] C:\Users\OM\.gradle\caches\transforms-3\0b7779b9269da355e9bcc3d2d4abf2fc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+218
+219        <receiver
+219-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+220            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+220-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+221            android:exported="true"
+221-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+222            android:permission="com.google.android.c2dm.permission.SEND" >
+222-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+223            <intent-filter>
+223-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+224                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+224-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+224-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+225            </intent-filter>
+226        </receiver>
+227        <!--
+228             FirebaseMessagingService performs security checks at runtime,
+229             but set to not exported to explicitly avoid allowing another app to call it.
+230        -->
+231        <service
+231-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+232            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+232-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+233            android:directBootAware="true"
+233-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+234            android:exported="false" >
+234-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\OM\.gradle\caches\transforms-3\bd73782738c9b4139e14d115e9bf3f2d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+235            <intent-filter android:priority="-500" >
+235-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+236                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+236-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+236-->[:firebase_messaging] E:\Come Eat Home\PHP Script\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+237            </intent-filter>
+238        </service> <!-- Needs to be explicitly declared on P+ -->
+239        <uses-library
+239-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\bf2f59dd8fb08d5f5ac2d38618a3fda4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+240            android:name="org.apache.http.legacy"
+240-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\bf2f59dd8fb08d5f5ac2d38618a3fda4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+241            android:required="false" />
+241-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\bf2f59dd8fb08d5f5ac2d38618a3fda4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+242
+243        <activity
+243-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\8a381ae7c50399f95d1704c056e4f307\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+244            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+244-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\8a381ae7c50399f95d1704c056e4f307\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+245            android:exported="false"
+245-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\8a381ae7c50399f95d1704c056e4f307\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+246            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+246-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\8a381ae7c50399f95d1704c056e4f307\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+247
+248        <provider
+248-->[com.google.firebase:firebase-common:20.3.2] C:\Users\OM\.gradle\caches\transforms-3\e69d6c6adaf65ff42522d7b0fe44c7a1\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+249            android:name="com.google.firebase.provider.FirebaseInitProvider"
+249-->[com.google.firebase:firebase-common:20.3.2] C:\Users\OM\.gradle\caches\transforms-3\e69d6c6adaf65ff42522d7b0fe44c7a1\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+250            android:authorities="com.smartersvision.food_delivery_app_2.firebaseinitprovider"
+250-->[com.google.firebase:firebase-common:20.3.2] C:\Users\OM\.gradle\caches\transforms-3\e69d6c6adaf65ff42522d7b0fe44c7a1\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+251            android:directBootAware="true"
+251-->[com.google.firebase:firebase-common:20.3.2] C:\Users\OM\.gradle\caches\transforms-3\e69d6c6adaf65ff42522d7b0fe44c7a1\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+252            android:exported="false"
+252-->[com.google.firebase:firebase-common:20.3.2] C:\Users\OM\.gradle\caches\transforms-3\e69d6c6adaf65ff42522d7b0fe44c7a1\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+253            android:initOrder="100" />
+253-->[com.google.firebase:firebase-common:20.3.2] C:\Users\OM\.gradle\caches\transforms-3\e69d6c6adaf65ff42522d7b0fe44c7a1\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+254
+255        <meta-data
+255-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\2bbe6b1e7d339adcb710729c0bad89e7\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+256            android:name="com.google.android.gms.version"
+256-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\2bbe6b1e7d339adcb710729c0bad89e7\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+257            android:value="@integer/google_play_services_version" />
+257-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\OM\.gradle\caches\transforms-3\2bbe6b1e7d339adcb710729c0bad89e7\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+258
+259        <service
+259-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\a706b0e65771debc5aa66c4eb3951311\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+260            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+260-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\a706b0e65771debc5aa66c4eb3951311\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+261            android:exported="false" >
+261-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\a706b0e65771debc5aa66c4eb3951311\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+262            <meta-data
+262-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\a706b0e65771debc5aa66c4eb3951311\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+263                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+263-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\a706b0e65771debc5aa66c4eb3951311\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+264                android:value="cct" />
+264-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\a706b0e65771debc5aa66c4eb3951311\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+265        </service>
+266        <service
+266-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\ca0841d8236e28c43e53b2eca4b105e0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+267            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+267-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\ca0841d8236e28c43e53b2eca4b105e0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+268            android:exported="false"
+268-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\ca0841d8236e28c43e53b2eca4b105e0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+269            android:permission="android.permission.BIND_JOB_SERVICE" >
+269-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\ca0841d8236e28c43e53b2eca4b105e0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+270        </service>
+271
+272        <receiver
+272-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\ca0841d8236e28c43e53b2eca4b105e0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+273            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+273-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\ca0841d8236e28c43e53b2eca4b105e0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+274            android:exported="false" />
+274-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\OM\.gradle\caches\transforms-3\ca0841d8236e28c43e53b2eca4b105e0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+275    </application>
+276
+277</manifest>

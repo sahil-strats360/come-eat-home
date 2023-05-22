@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Come Eat Home\\PHP Script\\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\\flutter application\\build\\video_player_android\\intermediates\\merged_res\\debug\\values-en-rGB\\values-en-rGB.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\b9bc8477d202021c7e8d361be42a8a94\\transformed\\core-1.7.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "702",
+                        "endColumns": "100",
+                        "endOffsets": "798"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\65a297362579578d653c94154d110da2\\transformed\\jetified-exoplayer-core-2.18.5\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,187,252,316,393,458,548,633",
+                        "endColumns": "69,61,64,63,76,64,89,84,68",
+                        "endOffsets": "120,182,247,311,388,453,543,628,697"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Come Eat Home\\PHP Script\\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\\flutter application\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\b9bc8477d202021c7e8d361be42a8a94\\transformed\\core-1.7.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "702",
+                        "endColumns": "100",
+                        "endOffsets": "798"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\65a297362579578d653c94154d110da2\\transformed\\jetified-exoplayer-core-2.18.5\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,187,252,316,393,458,548,633",
+                        "endColumns": "69,61,64,63,76,64,89,84,68",
+                        "endOffsets": "120,182,247,311,388,453,543,628,697"
+                    }
+                }
+            ]
+        }
+    ]
+}

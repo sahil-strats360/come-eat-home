@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Come Eat Home\\PHP Script\\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\\flutter application\\build\\firebase_core\\intermediates\\merged_res\\release\\values-zh-rHK\\values-zh-rHK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\2f458ce8f7f4d9c94c832d5b4782ed15\\transformed\\core-1.6.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "163",
+                        "endColumns": "100",
+                        "endOffsets": "259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\d30cd6fad6d4737ca903834dfea681b6\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "103",
+                        "endOffsets": "302"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "107",
+                        "endOffsets": "158"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Come Eat Home\\PHP Script\\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\\flutter application\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\2f458ce8f7f4d9c94c832d5b4782ed15\\transformed\\core-1.6.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "163",
+                        "endColumns": "100",
+                        "endOffsets": "259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\d30cd6fad6d4737ca903834dfea681b6\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "103",
+                        "endOffsets": "302"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "107",
+                        "endOffsets": "158"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Thu May 04 18:16:25 IST 2023
+base.0=E\:\\Come Eat Home\\PHP Script\\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\\flutter application\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

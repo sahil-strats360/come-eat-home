@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Come Eat Home\\PHP Script\\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\\flutter application\\build\\video_player_android\\intermediates\\merged_res\\debug\\values-bg\\values-bg.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\b9bc8477d202021c7e8d361be42a8a94\\transformed\\core-1.7.0\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "742",
+                        "endColumns": "100",
+                        "endOffsets": "838"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\65a297362579578d653c94154d110da2\\transformed\\jetified-exoplayer-core-2.18.5\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,126,189,253,327,405,478,575,666",
+                        "endColumns": "70,62,63,73,77,72,96,90,75",
+                        "endOffsets": "121,184,248,322,400,473,570,661,737"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Come Eat Home\\PHP Script\\codecanyon-eJPdrEGJ-multi-restaurants-flutter-php-laravel-admin-panel\\flutter application\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\b9bc8477d202021c7e8d361be42a8a94\\transformed\\core-1.7.0\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "742",
+                        "endColumns": "100",
+                        "endOffsets": "838"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-3\\65a297362579578d653c94154d110da2\\transformed\\jetified-exoplayer-core-2.18.5\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,126,189,253,327,405,478,575,666",
+                        "endColumns": "70,62,63,73,77,72,96,90,75",
+                        "endOffsets": "121,184,248,322,400,473,570,661,737"
+                    }
+                }
+            ]
+        }
+    ]
+}
